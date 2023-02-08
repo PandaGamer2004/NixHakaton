@@ -74,7 +74,7 @@ public class SolutionService
         bool MainLoop(Func<int, Position> nextPosition, Func<int, Position> curPosition)
         {
             bool succsess = true;
-            for (var i = 0; i < 3; i++)
+            for (var i = 0; i < 5; i++)
             {
                 var (nextX, nextY) = nextPosition(i);
                 var (curX, curY) = curPosition(i);
@@ -139,7 +139,7 @@ public class SolutionService
 
     private bool CheckHorizontal(string[][] items, int x)
     {
-        for (var i = 0; i < 3; i++)
+        for (var i = 0; i < 5; i++)
         {
             if (items[i][x] != items[i + 1][x])
             {
@@ -158,13 +158,13 @@ public class SolutionService
         List<Position> possiblePositions = new List<Position>(9);
         for (var colNumber = 0; colNumber < 9; colNumber++)
         {
-            if (model.Board[3][colNumber] == "_")
+            if (model.Board[5][colNumber] == "_")
             {
                 possiblePositions.Add(new Position(colNumber, 3));
                 continue;
             }
 
-            for (var rowNumber = 0; rowNumber < 3; rowNumber++)
+            for (var rowNumber = 0; rowNumber < 5; rowNumber++)
             {
                 if (model.Board[rowNumber][colNumber] == "_" && model.Board[rowNumber + 1][colNumber] != "_")
                 {
