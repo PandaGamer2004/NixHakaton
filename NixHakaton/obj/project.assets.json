@@ -5,10 +5,14 @@
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.5.0": {
@@ -17,10 +21,14 @@
           "Microsoft.OpenApi": "1.2.3"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -32,19 +40,27 @@
           "Swashbuckle.AspNetCore.Swagger": "6.5.0"
         },
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore.SwaggerUI/6.5.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -157,27 +173,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bazhanov\\.nuget\\packages\\": {}
+    "C:\\Users\\админ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bazhanov\\RiderProjects\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
+      "projectUniqueName": "C:\\Users\\админ\\Desktop\\NIX\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
       "projectName": "NixHakaton",
-      "projectPath": "C:\\Users\\bazhanov\\RiderProjects\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
-      "packagesPath": "C:\\Users\\bazhanov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bazhanov\\RiderProjects\\NixHakaton\\NixHakaton\\obj\\",
+      "projectPath": "C:\\Users\\админ\\Desktop\\NIX\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
+      "packagesPath": "C:\\Users\\админ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\админ\\Desktop\\NIX\\NixHakaton\\NixHakaton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bazhanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Nuget": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nix-net.pkgs.visualstudio.com/NixNuGet/_packaging/NixNuGet/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/mykhailozhmaitsev/_packaging/mykhailozhmaitsev/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -227,7 +246,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

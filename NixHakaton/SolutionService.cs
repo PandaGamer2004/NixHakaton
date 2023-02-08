@@ -22,7 +22,7 @@ public class SolutionService
             var positionType = GetPositionType(possiblePosition, model);
             if (positionType is PositionType.Win)
             {
-                return possiblePosition.X;
+                return possiblePosition.X + 1;
             }
 
             if (positionType is PositionType.Defence)
@@ -33,7 +33,7 @@ public class SolutionService
 
         if (defencePositions.Count == 0)
         {
-            return possiblePositions[0].X;
+            return possiblePositions[0].X + 1;
         }
 
         var defensePosition = defencePositions.First();
@@ -62,7 +62,7 @@ public class SolutionService
         bool diagonal = CheckDiagonal(items, position.X, position.Y);
         items[position.Y][position.X] = prevSymbol;
         var possibles = new[] { vertical, horizontal, diagonal };
-        return possibles.Any();
+        return possibles.Any(item => item);
     }
 
     private bool CheckDiagonal(string[][] items, int positionX, int positionY)
@@ -78,7 +78,7 @@ public class SolutionService
             {
                 var (nextX, nextY) = nextPosition(i);
                 var (curX, curY) = curPosition(i);
-                if (items[curY][curX] != items[nextX][nextY])
+                if (items[curY][curX] != items[nextY][nextX])
                 {
                     return false;
                 }
@@ -160,7 +160,7 @@ public class SolutionService
         {
             if (model.Board[5][colNumber] == "_")
             {
-                possiblePositions.Add(new Position(colNumber, 3));
+                possiblePositions.Add(new Position(colNumber, 5));
                 continue;
             }
 

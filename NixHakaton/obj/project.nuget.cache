@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KTcfKh/r22tj+LjcImdfXXljr493d77kAsdyA6F2r6kIDwZdW2aUpwDIxDpiGuOm6WQTD3T3FzyOnOaL2oRtIQ==",
+  "dgSpecHash": "0Q3GYcU+ycHVLFyKJHO2rfb2DNyMG4ioh/THLt/YgLLPHTHMF0BL1wW9FMHiOmzs1W0kZmD2cegGyakOUOQbWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bazhanov\\RiderProjects\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
+  "projectFilePath": "C:\\Users\\админ\\Desktop\\NIX\\NixHakaton\\NixHakaton\\NixHakaton.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bazhanov\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\bazhanov\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "C:\\Users\\bazhanov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\bazhanov\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\админ\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\админ\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\админ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\админ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }
